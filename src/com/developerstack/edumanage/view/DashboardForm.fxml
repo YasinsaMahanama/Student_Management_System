@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="context" prefHeight="550.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.developerstack.edumanage.controller.DashboardFormController">
+   <children>
+      <Label layoutX="14.0" layoutY="8.0" text="Dash Board" textFill="#311e82">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDate" layoutX="374.0" layoutY="21.0" text="2024-06-02" textFill="#c91616">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="549.0" layoutY="21.0" text="08:05:28" textFill="#c91616">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="529.0" layoutY="14.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="0.0" />
+      <Separator layoutX="14.0" layoutY="61.0" prefHeight="0.0" prefWidth="795.0" />
+      <Button layoutX="14.0" layoutY="89.0" mnemonicParsing="false" onAction="#openStudentFormOnAction" prefHeight="163.0" prefWidth="185.0" style="-fx-background-color: blue;" text="Student">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="89.0" mnemonicParsing="false" prefHeight="163.0" prefWidth="185.0" style="-fx-background-color: red;" text="Programs">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="419.0" layoutY="89.0" mnemonicParsing="false" prefHeight="163.0" prefWidth="185.0" style="-fx-background-color: yellow;" text="Intakes">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="619.0" layoutY="89.0" mnemonicParsing="false" prefHeight="163.0" prefWidth="185.0" style="-fx-background-color: orange;" text="Teachers">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="266.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="789.0" style="-fx-background-color: green;" text="Registration">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="506.0" text="From : developerstack">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="670.0" layoutY="506.0" text="Version : 1.0.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="721.0" layoutY="13.0" mnemonicParsing="false" onAction="#logOutOnAction" style="-fx-background-color: darkblue;" text="Log Out" textFill="#fff6f6">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
